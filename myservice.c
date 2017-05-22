@@ -64,7 +64,7 @@ void service_release(struct serviceInfo* service){
 			//i = i/0;
 		}
 		//else
-			free(service); //for debug
+			//free(service); //for debug
 		DBG_PRINT(L_RED"============service_release ================\n"NONE);
 		service = NULL;
 	}

@@ -26,11 +26,11 @@
 #define CLEAR                "\e[2J"
 #define CLRLINE              "\r\e[K" //or "\e[1K\r"S
 
-//#define DBG_PRINT (printf("%s:%u %s:%s:\t", __FILE__, __LINE__, __DATE__, __TIME__), printf) 
+#define DBG_PRINT (printf("%s:%u %s:%s:\t", __FILE__, __LINE__, __DATE__, __TIME__), printf) 
 
 //*
 void dumyFnc(const char * _Format, ...);
-#define DBG_PRINT (dumyFnc) 
+//#define DBG_PRINT (dumyFnc) 
 #define DBG_PRINT_2 (printf("%s:%u %s:%s:\t", __FILE__, __LINE__, __DATE__, __TIME__), printf)  
 
 //*/
